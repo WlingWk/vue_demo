@@ -17,7 +17,6 @@
 					<Icon type="ios-paper" />
 					<span >内容管理</span>
 				</div>
-			<!--<router-link to='./Maneger' >内容管理</router-link>-->
 			</MenuItem>
 			<MenuItem name="2">
 				<div @click="sendParams('./User','User')">
@@ -111,6 +110,8 @@
 					path: '/',
 					name: "Index",
 				})
+				$('.ivu-menu-item').removeClass('active');
+				$('.ivu-menu .ivu-menu-item:eq(0)').addClass('active')
 			}
 		},
 		mounted() {}
