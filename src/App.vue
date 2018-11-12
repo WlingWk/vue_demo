@@ -114,7 +114,13 @@
 				$('.ivu-menu .ivu-menu-item:eq(0)').addClass('active')
 			}
 		},
-		mounted() {}
+		mounted() {
+			$('.ivu-menu .ivu-menu-item:eq(0)').addClass('active');
+			this.$router.push({
+				path: '/',
+				name: "Index",
+			})
+		}
 	}
 </script>
 
