@@ -63,8 +63,8 @@
 				hadLogin:false,
 				
 				info:{
-					user:'',
-					pwd:'',
+					user:'wling',
+					pwd:'123456',
 				}
 			}
 		},
