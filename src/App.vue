@@ -107,6 +107,10 @@
 				localStorage.setItem('info','');
 				this.showLogin = true;
 				this.hadLogin = false;
+				this.$router.push({
+					path: '/',
+					name: "Index",
+				})
 			}
 		},
 		mounted() {}
