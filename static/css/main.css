@@ -1,0 +1,8 @@
+.main_tam {
+	position: absolute;
+	left: 142px;
+	top: 45px;
+	width:-webkit-calc(100% - 142px); 
+	width:-moz-calc(100% - 142px); 
+	width:calc(100% - 142px);
+}
